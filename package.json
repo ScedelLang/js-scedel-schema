@@ -1,0 +1,28 @@
+{
+  "name": "@scedel/schema",
+  "version": "0.1.0",
+  "description": "Typed schema repository builder for SCEDel in JS/TS",
+  "license": "MIT",
+  "author": "SCEDel contributors",
+  "keywords": [
+    "scedel",
+    "schema",
+    "type-system",
+    "json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "scedel-describe-schema": "./bin/describe-schema.mjs"
+  },
+  "scripts": {
+    "describe-schema": "node ./bin/describe-schema.mjs",
+    "test": "node --test ./tests/*.test.js"
+  }
+}
