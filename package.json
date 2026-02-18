@@ -1,9 +1,9 @@
 {
   "name": "@scedel/schema",
   "version": "0.1.0",
-  "description": "Typed schema repository builder for SCEDel in JS/TS",
+  "description": "Typed schema repository builder for Scedel in JS/TS",
   "license": "MIT",
-  "author": "SCEDel contributors",
+  "author": "Scedel contributors",
   "keywords": [
     "scedel",
     "schema",
