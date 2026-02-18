@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { ParserService } from '../../scedel-parser/src/index.js';
+import { ParserService } from '@scedel/parser';
 import { SchemaRepository } from './schema-repository.js';
 import { parseTypeExpression } from './type-expression.js';
 
